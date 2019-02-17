@@ -3,7 +3,37 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid blue;
     margin: 1em 0;
     padding: 0;
 }
+
+.ui-menu {
+    width: auto !important;
+    margin: 0px !important;
+    border: none !important;
+    background-color: #2D353C !important;
+  }
+  
+  .ui-menu-list {
+    background-color: black;
+  }
+  
+  .ui-menuitem-text {
+    color: grey !important;
+  }
+  
+  .ui-menuitem-icon {
+    color: white !important;
+    font-size: large !important;
+    margin-right: 1em;
+  }
+  
+  body .ui-menu .ui-menuitem :hover {
+    background-color: #2F8EE5 !important;
+  }
+  
+  .menu-selected {
+    background-color: #F15B2A !important;
+    color: #ffffff;
+  }
